@@ -28,7 +28,6 @@ metadata:
   name: user-service-svc
   namespace: default
 spec:
-  type: LoadBalancer
   selector:
     app: user-service-svc
   sessionAffinity: None
